@@ -1,0 +1,15 @@
+[package]
+name = "list"
+version = "1.0.0"
+authors = []
+
+[addresses]
+list_addr='0x9d6a1ac537afe164bc8effa05db3c420ca90faa8cef36eeb819ac2547727628b'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
